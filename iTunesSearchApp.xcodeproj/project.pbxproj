@@ -13,6 +13,8 @@
 		B9FC7EA329522B18007353AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FC7EA129522B18007353AE /* Main.storyboard */; };
 		B9FC7EA529522B19007353AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9FC7EA429522B19007353AE /* Assets.xcassets */; };
 		B9FC7EA829522B19007353AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FC7EA629522B19007353AE /* LaunchScreen.storyboard */; };
+		B9FC7EB029522BE6007353AE /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC7EAF29522BE6007353AE /* SearchResults.swift */; };
+		B9FC7EB229522D13007353AE /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC7EB129522D13007353AE /* SearchResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B9FC7EA429522B19007353AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9FC7EA729522B19007353AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9FC7EA929522B19007353AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FC7EAF29522BE6007353AE /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		B9FC7EB129522D13007353AE /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B9FC7EA429522B19007353AE /* Assets.xcassets */,
 				B9FC7EA629522B19007353AE /* LaunchScreen.storyboard */,
 				B9FC7EA929522B19007353AE /* Info.plist */,
+				B9FC7EAF29522BE6007353AE /* SearchResults.swift */,
+				B9FC7EB129522D13007353AE /* SearchResultsController.swift */,
 			);
 			path = iTunesSearchApp;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				B9FC7EA029522B18007353AE /* ViewController.swift in Sources */,
 				B9FC7E9C29522B18007353AE /* AppDelegate.swift in Sources */,
+				B9FC7EB029522BE6007353AE /* SearchResults.swift in Sources */,
+				B9FC7EB229522D13007353AE /* SearchResultsController.swift in Sources */,
 				B9FC7E9E29522B18007353AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
